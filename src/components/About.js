@@ -5,21 +5,23 @@ import TopNavbar from "./TopNavbar";
 
 const About = () => {
   let backImage = {
-    backgroundImage:
-      'URL("https://divisoup.com/wp-content/uploads/2016/09/building-2.jpg")',
+    backgroundColor: " #25383C",
+
     height: "85vh",
-    backgroundRepeat: "no-repeat",
+
+    backgroundRepeat: "no-repeat"
   };
   return (
     <>
       <div className="about" style={backImage}>
         <TopNavbar />
 
-        <p className="details" style={{fontWeight:"bold"}}>
+        <p className="details" style={{ fontWeight: "bold" }}>
           <i>
-            It's a "Random Image Generator and Sharing" app. We are providing some
-            important features. You can refresh image without page reload, you
-            can share image in twitter and you can download the image you like.{" "}
+            It's a "Random Image Generator and Sharing" app. We are providing
+            some important features. You can refresh image without page reload,
+            you can share image in twitter and you can download the image you
+            like.{" "}
           </i>
         </p>
       </div>
