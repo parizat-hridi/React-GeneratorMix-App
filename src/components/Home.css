@@ -1,0 +1,122 @@
+
+.home{
+    text-align: center;
+    background: white;
+    background-size: contain;
+    height: auto;
+    
+
+}
+
+.heading{
+   
+    padding: 30px 0;
+    color:black;
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    
+    
+    font-size: 18px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    margin: 0 10px;
+    cursor: pointer;
+    
+}
+
+.twitter{
+ background-color: black;
+ color: white;
+ border-radius: 20px;
+}
+
+.download{
+    background-color: rgb(109, 109, 109);
+    color: white;
+    border-radius: 20px;
+   }
+
+   .refresh{
+    background-color: #3cb371;;
+    color: white;
+    border-radius: 20px;
+
+   }
+.twitter:hover{
+    background:rgb(16, 223, 212);
+    color: white;
+}
+
+.download:hover{
+    background: darkred;
+    color: white;
+}
+
+.refresh:hover{
+    background:rgb(44, 11, 99);
+    color: white;
+}
+
+
+  .button > i{
+      padding: 0 5px;
+  }
+
+  
+.image_box{
+   
+    height: 520px;
+}
+
+.fa-spinner{
+    font-size: 40px;
+    color: #fff;
+    
+}
+
+.image{
+    cursor: pointer;
+    height: 400px;
+    max-width: 1700vh;
+}
+
+
+
+@media only screen and (max-width: 1700vh) {
+    .home{
+        height: auto;
+    }
+
+    .button{
+       
+      
+        font-size: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+        margin: 0 10px;
+        cursor: pointer;
+    }
+
+    
+    .image{
+        height: 500px;
+        width: 90%;
+        
+    }
+    .fa-spinner{
+        font-size: 40px;
+        color: #fff;
+        margin: 0 auto;
+    }
+  }

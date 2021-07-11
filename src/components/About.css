@@ -1,0 +1,31 @@
+.about {
+  text-align: center;
+  color: white;
+  background-size: contain;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.heading {
+  font-size: 30px;
+  color: white;
+}
+
+.details {
+  width: 60%;
+  margin: 10vh auto;
+  text-align: justify;
+  font-size: 17px;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .about {
+    height: auto;
+  }
+
+  .future {
+    padding-bottom: 20px;
+  }
+}
